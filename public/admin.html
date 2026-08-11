@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Panel de administración - Financiera Confianza</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tabler-icons/2.47.0/iconfont/tabler-icons.min.css">
+</head>
+<body>
+
+<div id="header"></div>
+
+<section class="seccion contenedor">
+  <div id="acceso-denegado" style="display:none;">
+    <p class="mensaje-error" style="display:block;">
+      Solo un administrador puede ver este panel. Inicia sesión con una cuenta admin.
+    </p>
+  </div>
+  <div id="panel-admin"></div>
+</section>
+
+<footer class="footer"><div class="contenedor">&copy; 2026 Financiera Confianza.</div></footer>
+
+<script type="module" src="js/main-admin.js"></script>
+</body>
+</html>
